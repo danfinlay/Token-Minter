@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
+import CreateToken from './CreateToken';
+import ManageToken from './ManageToken';
 import { Web3Provider } from 'react-web3';
-import AddTokenPanel from './AddTokenPanel';
-import EditTokenPanel from './EditTokenPanel';
 import DownloadMetaMaskButton from './DownloadMetaMaskButton';
+import Welcome from './Welcome';
 import { BrowserRouter, Route, Switch, HashRouter } from 'react-router-dom';
 
 class App extends Component {
@@ -21,9 +22,9 @@ class App extends Component {
           <BrowserRouter basename={process.env.PUBLIC_URL}>
             <HashRouter hashType="noslash">
               <Switch>
-                <Route path="/edit" component={EditTokenPanel} />
-                <Route path="/add" component={AddTokenPanel} />
-                <Route path="/" component={AddTokenPanel} />
+                <Route path="/create" component={CreateToken} />
+                <Route path="/manage" component={ManageToken} />
+                <Route path="/" component={Welcome} />
               </Switch>
             </HashRouter>
           </BrowserRouter>
