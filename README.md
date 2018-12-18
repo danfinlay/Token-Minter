@@ -1,8 +1,8 @@
-# Add Token Adpp
+# Token Minter
 
-A simple Dapp for suggesting tokens to users.
+A simple app for deploying new tokens of various types.
 
-[Live Example](https://metamask.github.io/Add-Token)
+[Live App](https://danfinlay.github.io/Token-Minter)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
