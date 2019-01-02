@@ -19,3 +19,14 @@ We have 2^3 or 8 different contracts we're talking about having compiled for MVP
 - Fixed Burnable SmartToken
 - Fixed SmartToken
 
+Also for the sake of simplicity we could leave out the SmartToken to start, and implement in this order:
+
+1. Fixed
+2. Mintable only
+3. Mintable Burnable
+4. Fixed Burnable
+
+I like this because at step one we achieve parity with TokenFactory, and at step 2 we already have a novel application.
+
+In fact, I think we might be ready to add management and maybe even market-making after step 2.
+

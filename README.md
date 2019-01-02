@@ -23,6 +23,10 @@ The use cases this app aspires to satisfy are these, which should be mostly comb
 
 More in [precompiles](./precompiles.md).
 
+### Token Management
+
+Since some of these token types enable managing the token involved, this application also aspires to allow users to manage their tokens, both minting, burning, and eventually market-making.
+
 ## Technical Details
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
