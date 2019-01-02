@@ -4,6 +4,25 @@ A simple app for deploying new tokens of various types.
 
 [Live App](https://danfinlay.github.io/Token-Minter)
 
+## Goals
+
+This app aims to solve the problems of users of web3 browsers who want to experiment with issuing a new token but don't want to worry about programming original smart contracts.
+
+The most common use cases are very much solved, and should be easily available via nice UI, except this is sorely missing. [TokenFactory](https://tokenfactory.surge.sh/) is an old favorite for issuing a simple token, but that site has bugs regarding precision, and is also unmaintained.
+
+The use cases this app aspires to satisfy are these, which should be mostly combinable with each other:
+
+- Issuing a simple, fixed-supply token.
+- Issuing a MintableToken.
+- Issuing a BurnableToken.
+- Creating an automated market using Uniswap.
+- Automatically minting tokens using Bancor SmartToken.
+- Creating an automated market using DutchX.
+- Adding a logo to the token.
+- Sharing the token via link or QR code per [EIP 747](https://ethereum-magicians.org/t/eip-747-wallet-watchasset/1048).
+
+## Technical Details
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
