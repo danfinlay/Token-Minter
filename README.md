@@ -21,6 +21,8 @@ The use cases this app aspires to satisfy are these, which should be mostly comb
 - Adding a logo to the token.
 - Sharing the token via link or QR code per [EIP 747](https://ethereum-magicians.org/t/eip-747-wallet-watchasset/1048).
 
+More in [precompiles](./precompiles.md).
+
 ## Technical Details
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
