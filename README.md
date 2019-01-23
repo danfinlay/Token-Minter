@@ -4,6 +4,8 @@ A simple app for deploying new tokens of various types.
 
 [Live App](https://danfinlay.github.io/Token-Minter)
 
+![flow chart diagram](./flow-chart.png)
+
 ## Goals
 
 This app aims to solve the problems of users of web3 browsers who want to experiment with issuing a new token but don't want to worry about programming original smart contracts.
